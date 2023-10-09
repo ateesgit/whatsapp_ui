@@ -16,7 +16,7 @@ class WhatsAppChatApp extends StatelessWidget {
       title: 'Whatsapp-Ui',
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-       colorScheme: customColorScheme
+       scaffoldBackgroundColor: backgroundColor
       ),
       home: ResponsiveLayouts(mobileScreenLayout: MobileScreenLayout(), webScreenLayout: WebScreenLayout()),
     );
